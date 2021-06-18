@@ -2,11 +2,7 @@ import axios from 'axios';
 import { TOKENKEY } from 'config';
 import { APIURL } from 'config';
 import jwt from 'jsonwebtoken';
-import { ChangeField } from 'modules/auth';
-import { SetUser } from 'modules/user';
 import React, { useEffect, useState } from 'react';
-import { RiEyeCloseFill } from 'react-icons/ri';
-import { connect } from 'react-redux';
 import { useHistory } from 'react-router';
 import './Login.scss';
 
